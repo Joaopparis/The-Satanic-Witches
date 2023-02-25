@@ -1,0 +1,513 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1675363434050187, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675363434052237, "dur": 46623, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675363434099073, "dur": 110352, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675363434209465, "dur": 576746, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675363434786213, "dur": 2498864, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675363437285108, "dur": 9829, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675363450799603, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675363450799964, "dur": 11971, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675363450811938, "dur": 64384, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675363450876324, "dur": 521201, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675363451397528, "dur": 44922729, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675363496320259, "dur": 11684, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675363496333049, "dur": 29, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1675363451189795, "dur": 185148, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675363451191351, "dur": 68685, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675363451348681, "dur": 7058, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675363451355744, "dur": 19185, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675363451357145, "dur": 16433, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675363451382371, "dur": 2003, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675363451381138, "dur": 3275, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675363496333249, "dur": 621, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1675363451483184, "dur":2351, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675363451485545, "dur":93, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1675363451485652, "dur":28, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1675363451485682, "dur":233, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1675363451485945, "dur":1102, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675363451487048, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675363496295931, "dur":190, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675363496296121, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675363496296145, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675363496296149, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675363496296160, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675363496296164, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675363496296175, "dur":54, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675363496296229, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675363496296240, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675363496296257, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675363496296293, "dur":3534, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1675363451487640, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363451487641, "dur":13379, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363451501038, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675363451501040, "dur":486, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363451501543, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675363451501551, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363452118490, "dur":2682733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675363454801227, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1675363454801565, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363454876176, "dur":233369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1675363455109760, "dur":1665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1675363455111429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363455138883, "dur":124944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1675363455264000, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1675363455264290, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363455301060, "dur":40951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1675363455342191, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1675363455342457, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363455342467, "dur":27324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1675363455369954, "dur":44203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363455414161, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363455414970, "dur":8600887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363464016145, "dur":403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363464016552, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363464017186, "dur":248510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363464265891, "dur":404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363464266299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363464266306, "dur":57882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363464324350, "dur":418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363464324773, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363464324781, "dur":37980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363464362948, "dur":396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363464363348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363464363355, "dur":34922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363464398437, "dur":433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363464398874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363464398881, "dur":57063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363464456117, "dur":426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363464456547, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363464456555, "dur":255149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363464712048, "dur":424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363464712476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363464712484, "dur":47518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363464760182, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363464760583, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363464760591, "dur":47086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363464807838, "dur":385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363464808227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363464808234, "dur":64083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363464872460, "dur":359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363464872823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363464872829, "dur":39256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363464912269, "dur":539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363464912812, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363464912818, "dur":63753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363464976750, "dur":396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363464977150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363464977158, "dur":36656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363465013993, "dur":596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363465014593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363465014600, "dur":60278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363465075084, "dur":404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363465075492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363465075499, "dur":37886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363465113545, "dur":367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363465113916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363465113922, "dur":76430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363465190564, "dur":383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363465190951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363465190959, "dur":88526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363465279683, "dur":441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363465280128, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363465280135, "dur":43036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363465323339, "dur":429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363465323772, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363465323778, "dur":53981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363465377926, "dur":503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363465378434, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363465378441, "dur":99814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363465478425, "dur":501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363465478930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363465478936, "dur":44569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363465523693, "dur":348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363465524044, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363465524056, "dur":42579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363465566804, "dur":367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363465567174, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363465567181, "dur":35274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363465602626, "dur":4682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363465607314, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363465607322, "dur":3551598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363469159065, "dur":526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363469159595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363469159603, "dur":572967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363469732758, "dur":513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363469733275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363469733283, "dur":51606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363469785328, "dur":3729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363469789064, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363469789073, "dur":319966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363470109190, "dur":1394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363470110588, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363470110595, "dur":307497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675363470418295, "dur":353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1675363470418652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363470748379, "dur":233611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1675363470982168, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1675363470982301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675363470982308, "dur":25313411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1675363496295893, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1675363496295895, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363451487753, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363451487754, "dur":13302, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363451501056, "dur":1790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1675363451502850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363454763153, "dur":203083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1675363454966473, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1675363454966731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363454966766, "dur":156489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1675363455123615, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1675363455123960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363455138912, "dur":154291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1675363455293410, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1675363455293717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363455299009, "dur":51567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1675363455350864, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1675363455351109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363455351116, "dur":62784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1675363455414076, "dur":11477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1675363455425559, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363455425567, "dur":4518718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1675363459944501, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1675363459944762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363463883644, "dur":393989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1675363464277897, "dur":363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363464278264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363464278270, "dur":67223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363464345697, "dur":394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363464346095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363464346102, "dur":40578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363464386850, "dur":370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363464387224, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363464387231, "dur":56440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363464443835, "dur":388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363464444227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363464444234, "dur":60142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363464504694, "dur":586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363464505292, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363464505301, "dur":238697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363464744235, "dur":656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363464744896, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363464744902, "dur":62736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363464807795, "dur":394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363464808200, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363464808206, "dur":57189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363464865634, "dur":451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363464866089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363464866097, "dur":35849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363464902108, "dur":477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363464902588, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363464902595, "dur":52336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363464955095, "dur":378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363464955476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363464955482, "dur":44328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363464999992, "dur":430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363465000448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363465000455, "dur":62912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363465063559, "dur":421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363465063984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363465063992, "dur":37782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363465101956, "dur":494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363465102454, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363465102461, "dur":56894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363465159547, "dur":380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363465159931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363465159938, "dur":102206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363465262368, "dur":757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363465263130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363465263138, "dur":50793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363465314163, "dur":513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363465314679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363465314687, "dur":44655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363465359546, "dur":768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363465360364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363465360372, "dur":92656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363465453218, "dur":874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363465454096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363465454103, "dur":57328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363465511840, "dur":417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363465512262, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363465512269, "dur":42614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363465555032, "dur":456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363465555492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363465555498, "dur":36326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363465591994, "dur":640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363465592639, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363465592650, "dur":167317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363465760166, "dur":792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363465760961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363465760969, "dur":3951477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363469712663, "dur":503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363469713170, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363469713245, "dur":47582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363469761002, "dur":4240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363469765249, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363469765259, "dur":234508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363469999945, "dur":724, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363470000674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363470000681, "dur":381495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363470382371, "dur":6977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363470389353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363470389360, "dur":380312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675363470769842, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1675363470769996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363470770003, "dur":1159317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1675363471929502, "dur":378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1675363471929883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363471929890, "dur":2287595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1675363474217651, "dur":556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1675363474218211, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363474218216, "dur":3552510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1675363477770922, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1675363477771056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363477771063, "dur":634495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1675363478405769, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1675363478405900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363478405907, "dur":4801971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1675363483208063, "dur":363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1675363483208429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675363483208436, "dur":568674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1675363483777300, "dur":12518643, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363451487714, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363451487714, "dur":13324, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363451501042, "dur":2110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1675363451503156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363454762876, "dur":164790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1675363454927857, "dur":1540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1675363454929401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363454929409, "dur":193872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1675363455123664, "dur":1556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1675363455125224, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363455139267, "dur":139422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1675363455278869, "dur":1628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1675363455280503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363455294207, "dur":48339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1675363455342787, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1675363455343050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363455343056, "dur":70626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1675363455413879, "dur":150866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363455564751, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363455564758, "dur":8514412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363464079358, "dur":425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363464079787, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363464079794, "dur":197027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363464276993, "dur":428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363464277425, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363464277431, "dur":61263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363464338883, "dur":418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363464339304, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363464339311, "dur":38396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363464377868, "dur":402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363464378274, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363464378279, "dur":52287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363464430767, "dur":382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363464431153, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363464431160, "dur":40629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363464471929, "dur":720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363464472652, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363464472660, "dur":258605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363464731463, "dur":434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363464731901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363464731907, "dur":47194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363464779285, "dur":499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363464779788, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363464779795, "dur":56628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363464836606, "dur":401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363464837011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363464837018, "dur":36051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363464873230, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363464873608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363464873614, "dur":53250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363464927118, "dur":472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363464927594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363464927601, "dur":49908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363464977660, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363464978040, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363464978046, "dur":44377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363465022584, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363465022964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363465022971, "dur":58649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363465081965, "dur":514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363465082484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363465082492, "dur":49408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363465132068, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363465132483, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363465132490, "dur":116147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363465248810, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363465249204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363465249211, "dur":40655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363465290036, "dur":605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363465290645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363465290653, "dur":54024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363465344847, "dur":380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363465345231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363465345238, "dur":69429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363465414844, "dur":512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363465415359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363465415367, "dur":62942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363465478463, "dur":367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363465478833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363465478840, "dur":43743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363465522761, "dur":509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363465523274, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363465523281, "dur":50042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363465573725, "dur":432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363465574160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363465574166, "dur":44993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363465619365, "dur":449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363465619818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363465619826, "dur":3538190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363469158230, "dur":1575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363469159809, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363469159815, "dur":579369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363469739389, "dur":536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363469739929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363469739936, "dur":46828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363469786928, "dur":410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363469787343, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363469787352, "dur":212092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363469999604, "dur":589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363470000197, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363470000205, "dur":108806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363470109215, "dur":502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363470109721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363470109729, "dur":275481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363470385362, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363470385740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363470385747, "dur":372269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675363470758183, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1675363470758352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363470769875, "dur":822750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1675363471592799, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1675363471592938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363471592945, "dur":2624758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1675363474217847, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1675363474218100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363474218135, "dur":3695796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1675363477914127, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1675363477914258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363477914265, "dur":588916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1675363478503400, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1675363478503535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675363478503541, "dur":5274197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1675363483777881, "dur":12518067, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363451487796, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363451487797, "dur":13254, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363451501054, "dur":513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1675363451501572, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363454884085, "dur":118055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1675363455002328, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1675363455002602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363455109571, "dur":117312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1675363455227098, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1675363455227381, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363455227389, "dur":73658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1675363455301230, "dur":1276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1675363455302510, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363455302519, "dur":62371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1675363455365055, "dur":6466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363455371525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363455406290, "dur":140986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363455547464, "dur":1270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches.exe" }}
+,{ "pid":12345, "tid":4, "ts":1675363455548738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363455548744, "dur":4396225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches.exe" }}
+,{ "pid":12345, "tid":4, "ts":1675363459945105, "dur":466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363459945574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363463883610, "dur":299781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363464183608, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363464184023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363464184031, "dur":145533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363464329881, "dur":500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363464330385, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363464330392, "dur":37933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363464368523, "dur":420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363464369012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363464369019, "dur":55411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363464424656, "dur":608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363464425267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363464425274, "dur":45464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363464470940, "dur":2136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363464473081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363464473089, "dur":270951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363464744273, "dur":459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363464744736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363464744745, "dur":57296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363464802249, "dur":450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363464802703, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363464802828, "dur":52884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363464855898, "dur":388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363464856290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363464856297, "dur":39231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363464895715, "dur":407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363464896126, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363464896134, "dur":49772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363464946123, "dur":587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363464946714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363464946721, "dur":45269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363464992182, "dur":499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363464992685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363464992692, "dur":35354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363465028268, "dur":383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363465028655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363465028661, "dur":54110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363465082928, "dur":434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363465083366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363465083372, "dur":55314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363465138877, "dur":2084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363465140965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363465140972, "dur":127670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363465268804, "dur":479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363465269288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363465269295, "dur":52868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363465322349, "dur":454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363465322807, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363465322813, "dur":37551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363465360598, "dur":1313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363465361915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363465361922, "dur":98181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363465460408, "dur":439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363465460851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363465460858, "dur":43968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363465505024, "dur":420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363465505448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363465505456, "dur":35951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363465541589, "dur":382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363465541975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363465541982, "dur":40196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363465582361, "dur":383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363465582748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363465582754, "dur":87651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363465670678, "dur":697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363465671379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363465671387, "dur":3954066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363469625887, "dur":527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363469626418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363469626426, "dur":112764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363469739427, "dur":1277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363469740708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363469740714, "dur":258114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363469999036, "dur":2240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363470001281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363470001288, "dur":382920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363470384351, "dur":676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363470385031, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363470385040, "dur":373174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675363470758358, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675363470758529, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363470758534, "dur":7332347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675363478091109, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675363478091245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363478091251, "dur":566102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675363478657534, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1675363478657668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675363478657700, "dur":4550963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/satanic witches/Satanic Witches - Pre-Alpha/The Satanic Witches_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1675363483208910, "dur":13087026, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675363496302275, "dur":2718, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1675363496334020, "dur": 1557, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675363496333036, "dur": 2568, "ph": "X", "name": "Write chrome-trace events", "args": {} },
